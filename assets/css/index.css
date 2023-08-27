@@ -1,0 +1,118 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* navbar style */
+   nav, .dropdown-menu, footer{
+    background-color: #5ac8d7;
+   }
+
+   .navbar-brand{
+    width: 100px;
+    height: 100px;
+   }
+
+   .navbar-nav li{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+   }
+
+   /* section */
+   .section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .hero-section {
+    background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero-image {
+    position: relative;
+  }
+  
+  #section_1 h2{
+    font-size: 38px;
+    font-weight: 400;
+    color: cornflowerblue;
+  }
+  #section_1 p{
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+  }
+
+  .donasi-btn {
+    font-size: 18px;
+    color: cornflowerblue;
+    border-radius: 5px;
+  }
+
+  #section_2 h2{
+    font-size: 38px;
+    font-weight: 400;
+    color: cadetblue;
+    padding-top: 20px;
+  }
+  #section_2 h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: goldenrod;
+  }
+  #section_2 p{
+    font-size: 15px;
+    font-weight: 200;
+    color: black;
+  }
+  .btn-donasi{
+    font-size: 20px;
+    width: auto;
+    border-radius: 10px;
+    border: none;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: rgb(137, 192, 192);
+    color: white;
+  }
+
+  footer h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  footer .card{
+    color: black;
+    background-color: rgb(192, 192, 90);
+    font-weight: 500;
+  }
+
+  footer i{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  #section_3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #section_3 label{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  /* login */
+  .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
